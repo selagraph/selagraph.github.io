@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: production
-      url: https://www.selagraph.com
+      url: https://www.selagraph.org
     defaults:
       run:
-        working-directory: ./selagraph-com
+        working-directory: ./selagraph-org
 
     steps:
       - name: Use Node
